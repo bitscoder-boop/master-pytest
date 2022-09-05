@@ -3,6 +3,10 @@ install:
 test:
 	python -m pytest -vv --cov=hello --cov=greeting tests
 
+debug:
+	# Debugger is invoked
+	python -m pytest -vv --pdb
+
 lint:
 	pylint --disable=R,C hello.py
 
