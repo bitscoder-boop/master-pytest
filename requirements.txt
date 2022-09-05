@@ -3,3 +3,4 @@ pytest-cov==3.0.0
 pylint==2.15.0
 black==22.8.0
 ipdb==0.13.9
+Flask==2.2.2
